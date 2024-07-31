@@ -10,7 +10,7 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
+  "description": "this is a hardhat project",
   "devDependencies": {
     "@nomicfoundation/hardhat-chai-matchers": "^2.0.0",
     "@nomicfoundation/hardhat-ethers": "^3.0.0",
@@ -37,8 +37,7 @@
     "typescript": "^5.5.4"
   },
   "dependencies": {
-    "chalk": "^5.3.0",
-    "cli-spinner": "^0.2.10",
-    "ora": "^8.0.1"
+    "@openzeppelin/contracts-upgradeable": "^5.0.2",
+    "@openzeppelin/hardhat-upgrades": "^3.2.0"
   }
 }

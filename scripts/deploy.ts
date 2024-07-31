@@ -23,6 +23,8 @@ async function main() {
 
     const deploymentTx = myToken.deploymentTransaction()
 
+    console.log("MyToken deployed to:", myToken.getAddress())
+
     if (deploymentTx) {
       console.log("Transaction Hash:", deploymentTx.hash)
 
